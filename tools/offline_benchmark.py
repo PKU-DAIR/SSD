@@ -86,6 +86,16 @@ algorithms = ['random_forest', 'resnet', 'nas']
 algo_str = '|'.join(algorithms)
 src_pattern = '(.*)-(%s)-(\d+).pkl' % algo_str
 
+if algo_id == 'nas':
+    n_source_data = 250
+    num_random_data = 15625
+elif algo_id == 'resnet':
+    n_source_data = 200
+    num_random_data = 2000
+else:
+    n_source_data = 10000
+    num_random_data = 50000
+
 
 def get_data_set(set_name):
     if algo_id == 'resnet':
