@@ -23,7 +23,7 @@ We generate offline benchmarks for 3 tasks:
 **Note:** For reproduction purposes, we also upload the benchmark data
 (e.g., evaluation results and the corresponding scripts) along with this submission.
 The benchmark data (with size – 90.9MB) exceeds the space limit (maximum 20Mb) on CMT3,
-so we only upload the data of Nas-Bench-201.
+so we only upload the data of Nas-Bench-201 and Resnet.
 To remain anonymous, we will make the complete benchmark publicly available on Google Drive after revision.
 
 To use the data, please `unzip` the benchmark data file into `data/hpo_data/` inside this project.
