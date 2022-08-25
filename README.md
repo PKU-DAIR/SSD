@@ -1,5 +1,28 @@
 # Transfer Learning based Search Space Design for Hyperparameter Tuning
 
+Transfer Learning based Search Space Design for Hyperparameter Tuning (SIGKDD'22)
+
+## Citation
+
+```
+@inproceedings{10.1145/3534678.3539369,
+author = {Li, Yang and Shen, Yu and Jiang, Huaijun and Bai, Tianyi and Zhang, Wentao and Zhang, Ce and Cui, Bin},
+title = {Transfer Learning Based Search Space Design for Hyperparameter Tuning},
+year = {2022},
+isbn = {9781450393850},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3534678.3539369},
+doi = {10.1145/3534678.3539369},
+booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {967–977},
+numpages = {11},
+keywords = {search space design, transfer learning, bayesian optimization, hyperparameter optimization},
+location = {Washington DC, USA},
+series = {KDD '22}
+}
+```
+
 ## Experimental Environment Installation
 
 1. preparations: Python == 3.7
@@ -20,11 +43,7 @@ We generate offline benchmarks for 3 tasks:
 + Resnet
 + Nas-Bench-201
 
-**Note:** For reproduction purposes, we also upload the benchmark data
-(e.g., evaluation results and the corresponding scripts) along with this submission.
-The benchmark data (with size – 90.9MB) exceeds the space limit (maximum 20Mb) on CMT3,
-so we only upload the data of Nas-Bench-201 and Resnet.
-To remain anonymous, we will make the complete benchmark publicly available on Google Drive after revision.
+The benchmark data is publicly available on Google Drive (<https://drive.google.com/file/d/1xKGPHMyXLbFHkMwgqkgNxnxTJ7-WPgvg/view>)
 
 To use the data, please `unzip` the benchmark data file into `data/hpo_data/` inside this project.
 
